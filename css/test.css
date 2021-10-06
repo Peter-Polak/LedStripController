@@ -1,0 +1,89 @@
+.button.disabled
+{
+    /* height: 10vmin;
+    width: 20vmin;
+    
+    font-size: 3vmin; */
+    
+    background-color: transparent;
+    color: #ffffff52;
+    border-color: #ffffff52;
+}
+
+
+:root
+{
+    --led-width: 7vw;
+    --led-heigh: 7vw;
+}
+
+#leds
+{
+    display: grid;
+    grid-template-columns: repeat(10, var(--led-width));
+    grid-auto-rows: var(--led-heigh);;
+    
+    column-gap: 3vw;
+    row-gap: 3vh;
+    
+    justify-content: center;
+    
+    overflow-y: scroll;
+}
+
+.led
+{
+    width: var(--led-width);
+    height: var(--led-heigh);
+}
+
+.colorPreview
+{
+    width: var(--led-width);
+    height: var(--led-heigh);
+}
+
+.led > .colorPreview > input[type="color"]
+{
+    width: var(--led-width);
+    height: var(--led-heigh);
+    
+    /* visibility: hidden; */
+}
+
+/* @media screen and (orientation:portrait)
+{
+    .popup
+    {
+        height: var(--popup-height);
+        width: var(--popup-width);
+        
+        top: calc((100vh - var(--popup-height)) / 2);
+        left: calc((100vw - var(--popup-width)) / 2);
+    }
+}
+@media screen and (orientation:landscape)
+{
+    .popup
+    {
+        height: var(--popup-height);
+        width: 70vw;
+        
+        top: calc((100vh - var(--popup-height)) / 2);
+        left: calc((100vw - 70vw) / 2);
+    }  
+} */
+
+.gridContainer
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.gridItem
+{
+    background: #e9ebf7;
+    border: 3px solid #798fcc;
+    color: #7985cc;
+}

@@ -1,0 +1,24 @@
+{
+    "secondaryHeaderText" : "Add new strip",
+    "nameContainer" : 
+    {
+        "label" : "Name"
+    },
+    "lengthContainer" : 
+    {
+        "label" : "Length"
+    },
+    "ledsPerMeterContainer" : 
+    {
+        "label" : "LED/m"
+    },
+    "ipContainer" : 
+    {
+        "label" : "IP Adress"
+    },
+    "buttons" : 
+    {
+        "back" : "Back",
+        "save" : "Save"
+    }
+}

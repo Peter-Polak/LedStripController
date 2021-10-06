@@ -1,0 +1,15 @@
+{
+    "header" : "Farba",
+    "red" :
+    {
+        "label" : "Červená"
+    },
+    "green" :
+    {
+        "label" : "Zelená"
+    },
+    "blue" :
+    {
+        "label" : "Modrá"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "stripSelect" : 
+    {
+        "label" : "Strip"
+    },
+    "actionSelect" : 
+    {
+        "label" : "Action",
+        "options" : 
+        {
+            "turnOn" : "Turn on",
+            "turnOff" : "Turn off",
+            "setRGB" : "Set RGB color"
+        }
+    },
+    "buttons" : 
+    {
+        "back" : "Back",
+        "write" : "Write"
+    }
+}

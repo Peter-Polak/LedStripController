@@ -1,0 +1,29 @@
+/* LAYOUT */
+
+#contentContainer
+{
+    display: grid;
+    grid-template-rows: 8vh auto;
+    /* grid-template-columns: 100%; */
+    /* align-items: start; */
+    align-content: start;
+}
+
+#contentContainer > span
+{
+    display: grid;
+    grid-template-rows: var(--content-height);
+    grid-template-columns: 25% 75%;
+    
+    place-items: center;
+}
+
+select
+{
+    width: 60vw;
+    height: 5vh;
+    
+    font-size: 3vmin;
+    
+    border-radius: 10px;
+}

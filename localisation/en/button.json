@@ -1,0 +1,68 @@
+{
+    "cancel" :
+    {
+        "id" : "cancel",
+        "text" : "Cancel",
+        "classes": "secondary"
+    },
+    "delete" : 
+    {
+        "id" : "delete",
+        "text" : "Delete",
+        "classes": "delete"
+    },
+    "save" : 
+    {
+        "id" : "save",
+        "text" : "Save",
+        "classes": "primary"
+    },
+    "back" : 
+    {
+        "id" : "back",
+        "text" : "Back",
+        "classes": "secondary"
+    },
+    "write" : 
+    {
+        "id" : "write",
+        "text" : "Write",
+        "classes": "primary"
+    },
+    "turnOn" : 
+    {
+        "id" : "turnOn",
+        "text" : "Turn on",
+        "classes": "primary"
+    },
+    "turnOff" : 
+    {
+        "id" : "turnOff",
+        "text" : "Turn off",
+        "classes": "secondary"
+    },
+    "solidColor" :
+    {
+        "id" : "solidColor",
+        "text" : "Solid color",
+        "classes" : ""
+    },
+    "pattern" :
+    {
+        "id" : "pattern",
+        "text" : "Pattern",
+        "classes" : ""
+    },
+    "fade" :
+    {
+        "id" : "fade",
+        "text" : "Fade",
+        "classes" : ""
+    },
+    "blink" :
+    {
+        "id" : "blink",
+        "text" : "Blink",
+        "classes" : ""
+    }
+}

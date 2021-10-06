@@ -1,0 +1,38 @@
+{
+    "secondaryHeader" : "Settings",
+    "language" :
+    {
+        "label" : "Language",
+        "options" : 
+        [ 
+            {
+                "value" : "English",
+                "label" : "English"
+            },
+            {
+                "value" : "Slovak",
+                "label" : "Slovak" 
+            }
+        ]
+    },
+    "liveReload" :
+    {
+        "label" : "Live reload",
+        "options" : 
+        [ 
+            {
+                "value" : "yes",
+                "label" : "Yes"
+            },
+            {
+                "value" : "no",
+                "label" : "No" 
+            }
+        ]
+    },
+    "buttons" : 
+    {
+        "back" : "Back",
+        "save" : "Save"
+    }
+}

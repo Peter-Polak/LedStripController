@@ -1,0 +1,13 @@
+{
+    "nfc" : 
+    {
+        "write" : 
+        {
+            "text" : "Prosím, podržte NFC značku blízko Vášho smartphonu!",
+            "buttons" :
+            {
+                "cancel" : "Zrusiť"
+            }
+        }
+    }
+}

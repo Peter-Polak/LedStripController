@@ -1,0 +1,87 @@
+:root
+{
+    --notification-template-header-height: 30%;
+    --notification-template-content-height: 70%;
+    --notification-height: 15vh;
+    --notification-width: 90vw;
+}
+
+.notificationContainer
+{
+    display: grid;
+    grid-template-rows: var(--notification-template-header-height) var(--notification-template-content-height);
+    grid-template-columns: auto;
+    
+    left: calc((100vw -  var(--notification-width)) / 2);
+    
+    height: var(--notification-height);
+    width: var(--notification-width);
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    
+    border-radius: 20px;
+    background-color: var(--color-primary-grey);
+    
+    font-size: 3vmin;
+    
+    transition: 0.5s;
+}
+
+.notificationContainer.hidden
+{
+    top: calc(0px - var(--notification-height));
+    opacity: 0%;
+}
+
+.notificationContainer.visible
+{
+    top: 2vh;
+    opacity: 100%;
+}
+
+.notificationHeader
+{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 10vh auto;
+    align-items: center;
+}
+
+.notificationContent
+{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 20% 90%;
+}
+
+.notificationIcon, .notificationImage
+{
+    place-self: center;
+}
+
+.notificationIcon
+{
+    height: 4.5vh;
+    width: 4.5vh;
+    
+    line-height: 4.5vh;
+    font-size: 3vh;
+    text-align: center;
+}
+
+.notificationImage
+{
+    height: 100%;
+    width: 100%;
+    
+    line-height: 10.5vh;
+    font-size: 9vmin;
+    text-align: center;
+    /* background-color: var(--color-secondary-darkgrey); */
+}
+
+.notificationText
+{
+    align-self: center;
+}

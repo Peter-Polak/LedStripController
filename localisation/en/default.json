@@ -1,0 +1,8 @@
+{
+    "mainHeader" : "LED Strip Controller",
+    "buttons" : 
+    {
+        "back" : "Back",
+        "save" : "Save"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "cancel" :
+    {
+        "id" : "cancel",
+        "text" : "Zrušiť",
+        "classes": "secondary"
+    },
+    "delete" : 
+    {
+        "id" : "delete",
+        "text" : "Zmazať",
+        "classes": "delete"
+    },
+    "save" : 
+    {
+        "id" : "save",
+        "text" : "Uložiť",
+        "classes": "primary"
+    },
+    "back" : 
+    {
+        "id" : "back",
+        "text" : "Späť",
+        "classes": "secondary"
+    },
+    "write" : 
+    {
+        "id" : "write",
+        "text" : "Zapísať",
+        "classes": "primary"
+    },
+    "turnOn" : 
+    {
+        "id" : "turnOn",
+        "text" : "Zapnúť",
+        "classes": "primary"
+    },
+    "turnOff" : 
+    {
+        "id" : "turnOff",
+        "text" : "Vypnúť",
+        "classes": "secondary"
+    }
+}

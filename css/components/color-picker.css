@@ -1,0 +1,77 @@
+/* VARIABLES */
+:root
+{
+    --color-primary-red: #bb2727;
+    --color-primary-green: #27bb27;
+    --color-primary-blue: #2727bb;
+    
+    --color-picker-width: 70vw;
+    --color-picker-height: 5vh;
+    
+}
+
+
+
+/* SECTIONS */
+
+.colorPicker
+{
+    display: grid;
+    grid-auto-rows: 5vh;
+    grid-template-columns: auto;
+}
+
+.redContainer, .greenContainer, .blueContainer
+{    
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 15% 70% 15%;
+    place-items: center;
+}
+
+.colorPreview
+{
+    justify-self: center;
+    
+    width: var(--color-picker-width);
+    
+    border-radius: 10vmin;
+    border-style: solid;
+    border-color: white; 
+}
+
+.colorPreview > input[type="color"]
+{
+    visibility: hidden;
+    width: var(--color-picker-width);
+    height: var(--color-picker-height);
+}
+
+/* INPUT */
+
+.redRange::-webkit-slider-thumb
+{
+    background-color: var(--color-primary-red);
+}
+.redRange::-moz-range-thumb
+{
+    background-color: var(--color-primary-red);
+}
+
+.greenRange::-webkit-slider-thumb
+{
+    background-color: var(--color-primary-green);
+}
+.greenRange::-moz-range-thumb
+{
+    background-color: var(--color-primary-green);
+}
+
+.blueRange::-webkit-slider-thumb
+{
+    background-color: var(--color-primary-blue);
+}
+.blueRange::-moz-range-thumb
+{
+    background-color: var(--color-primary-blue);
+}

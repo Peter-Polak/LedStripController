@@ -1,0 +1,55 @@
+/* VARIABLES */
+:root
+{
+    
+}
+
+/* SECTIONS */
+
+#contentContainer
+{
+    display: grid;
+    /* grid-auto-rows: auto; */
+    grid-auto-rows: max-content;
+    grid-template-columns: auto;
+    
+    row-gap: 5vh;
+}
+
+#detailsContainer
+{
+    display: grid;
+    grid-auto-rows: 1.5em;
+    grid-template-columns: 30% auto;
+    
+    align-items: center;
+}
+
+#lengthLabel, #ledsPerMeterLabel, #ipLabel
+{
+    padding-left: 5vw; 
+    
+    font-size: 90%;
+    font-family: var(--header-font);
+}
+
+#lengthContent, #ledsPerMeterContent, #ipContent
+{
+    font-size: 60%;
+}
+
+#powerContainer
+{
+    display: grid;
+    grid-template-rows: 50% auto;
+    grid-template-columns: auto;
+}
+
+#powerButtonsContainer
+{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    
+    place-items: center;
+}

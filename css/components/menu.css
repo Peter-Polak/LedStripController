@@ -1,0 +1,133 @@
+#menu
+{
+    height: 100%;
+    width: 0px;
+    
+    top: 0;
+    left: 0;
+    position: fixed;
+    
+    overflow-x: hidden;
+    overflow-y : scroll;
+    z-index: 99;
+    
+    background-color: #1b1b1b;
+    
+    transition: 0.5s;
+}
+
+#menuItems
+{
+    margin-top: var(--site-header-height);
+}
+
+#menu.open
+{
+    width: 50vmin;
+}
+
+#menu.closed
+{
+    width: 0;
+}
+
+#menuButton
+{
+    height: var(--site-header-height);
+    width: calc(var(--site-header-height) + 1vh);
+    
+    display: grid;
+    
+    place-items: center;
+    
+    position: fixed;
+    z-index: 99;
+    
+    /* Override default CSS for button */
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.menuIcon
+{
+    height: calc(var(--site-header-height) * 0.75);
+    width: calc(var(--site-header-height) * 0.75);
+    
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: auto;
+    
+    align-items: center;
+    
+    /* margin: 12.5% 0 12.5% 12.5%; */
+}
+
+.menuButtonLine
+{
+    height: 40%;
+    width: 100%;
+    
+    /* margin: 1vh 0; */
+    
+    background-color: white;
+    border-radius: 1vh;
+    
+    transition: 0.3s; 
+}
+
+#menu.open .menuButtonLine
+{
+    background-color: #646464;
+}
+
+#menu.open .menuIcon
+{
+    transform: translate(15%, 0);
+}
+
+#menu.open #line1
+{
+    transform-origin: left 50%;
+    transform: rotate(45deg) scaleX(0.95);
+}
+
+#menu.open #line2
+{
+    transform: translate(-200%, 0);
+    background-color: transparent;
+}
+
+#menu.open #line3
+{
+    transform-origin: left 50%;
+    transform: rotate(-45deg) scaleX(0.95);
+}
+
+.closed > #menuButton:hover
+{
+    background-color: var(--color-secondary-darkteal);
+}
+
+.open > #menuButton:hover
+{
+    background-color: var(--color-secondary-darkgrey);
+}
+
+.menuItem
+{
+    display: block;
+    
+    padding: 2vh 1vw 2vh 7vw;
+    
+    font-size: 5.5vmin;
+    color: #7e7e7e;
+    
+    transition: 0.3s; 
+}
+
+.menuItem:active, .menuItem:hover
+{
+    font-size: 7vmin;
+    background-color: var(--color-primary-grey);
+}

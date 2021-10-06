@@ -1,0 +1,25 @@
+{
+    "menu" : 
+    [
+        {
+            "id" : "home",
+            "label" : "Domov"
+        },
+        {
+            "id" : "settings",
+            "label" : "Nastavenia"
+        },
+        {
+            "id" : "nfc",
+            "label" : "NFC"
+        },
+        {
+            "id" : "automation",
+            "label" : "Automatizácia"
+        },
+        {
+            "id" : "test",
+            "label" : "Test"
+        }
+    ]  
+}

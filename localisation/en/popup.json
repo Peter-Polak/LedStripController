@@ -1,0 +1,13 @@
+{
+    "nfc" : 
+    {
+        "write" : 
+        {
+            "text" : "Please, place a NFC tag close to your phone!",
+            "buttons" :
+            {
+                "cancel" : "Cancel"
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "secondaryHeaderText" : "Pridať nový pás",
+    "nameContainer" : 
+    {
+        "label" : "Meno"
+    },
+    "lengthContainer" : 
+    {
+        "label" : "Dĺžka"
+    },
+    "ledsPerMeterContainer" : 
+    {
+        "label" : "LED/m"
+    },
+    "ipContainer" : 
+    {
+        "label" : "IP Adresa"
+    },
+    "buttons" : 
+    {
+        "back" : "Späť",
+        "save" : "Uložiť"
+    }
+}

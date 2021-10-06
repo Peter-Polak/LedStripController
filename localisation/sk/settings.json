@@ -1,0 +1,38 @@
+{
+    "secondaryHeader" : "Nastavenia",
+    "language" :
+    {
+        "label" : "Jazyk",
+        "options" : 
+        [ 
+            {
+                "value" : "English",
+                "label" : "Angličtina"
+            },
+            {
+                "value" : "Slovak",
+                "label" : "Slovenčina" 
+            }
+        ]
+    },
+    "liveReload" :
+    {
+        "label" : "Automatická obnova",
+        "options" : 
+        [ 
+            {
+                "value" : "yes",
+                "label" : "Áno"
+            },
+            {
+                "value" : "no",
+                "label" : "Nie" 
+            }
+        ]
+    },
+    "buttons" : 
+    {
+        "back" : "Späť",
+        "save" : "Uložť"
+    }
+}

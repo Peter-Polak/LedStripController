@@ -1,0 +1,8 @@
+{
+    "mainHeader" : "LED Pás Ovladač",
+    "buttons" : 
+    {
+        "back" : "Späť",
+        "save" : "Uložiť"
+    }
+}

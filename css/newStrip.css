@@ -1,0 +1,44 @@
+/* VARIABLES */
+:root
+{
+    --content-height: 8vh;
+}
+
+/* SECTIONS */
+
+#contentContainer
+{
+    display: grid;
+    grid-auto-rows: var(--content-height);
+    grid-template-columns: auto;
+}
+
+#nameContainer, #ledsPerMeterContainer, #ipContainer
+{
+    display: grid;
+    grid-template-rows: var(--content-height);
+    grid-template-columns: 25% auto;
+    
+    place-items: center;
+    justify-content: left;
+}
+
+#lengthContainer
+{
+    display: grid;
+    grid-template-rows: var(--content-height);
+    grid-template-columns: 25% auto calc(5vmin + 2vmin);
+    
+    place-items: center;
+    justify-content: left;
+}
+
+
+
+/* INPUT */
+
+input[type=number]
+{
+    width: 15vw;
+    height: 5vh;
+}

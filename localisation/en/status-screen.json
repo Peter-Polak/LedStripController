@@ -1,0 +1,14 @@
+{
+    "loading" :
+    {
+        "icon": "⏳",
+        "text" : "Loading...",
+        "classes" : "rotate"
+    },
+    "networkError" :
+    {
+        "icon": "😢",
+        "text" : "Couldn't connect to the strip!",
+        "classes" : ""
+    }
+}

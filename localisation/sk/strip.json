@@ -1,0 +1,21 @@
+{
+    "details" : 
+    {
+        "length" :
+        {
+            "label" : "Dĺžka"
+        },
+        "ledsPerMeter" : 
+        {
+            "label" : "LED/m"
+        },
+        "ip" : 
+        {
+            "label" : "IP Adresa"
+        }
+    },
+    "power" : 
+    {
+        "header" : "Napájanie"
+    }
+}

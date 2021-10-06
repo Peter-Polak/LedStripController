@@ -1,0 +1,22 @@
+#statusScreen
+{
+    display: grid;
+    grid-template-rows: 15% auto;
+    grid-template-columns: auto;
+    place-content: center;
+    place-items: center;
+    
+    left: 0;
+    top: var(--site-header-height);
+    
+    height: var(--main-height);
+    width: 100%;
+    
+    z-index: 98;
+    overflow: hidden;
+    position: fixed;
+    
+    font-size: 10vmin;
+    
+    background-color: var(--color-primary-black);
+}

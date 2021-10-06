@@ -1,0 +1,21 @@
+{
+    "stripSelect" : 
+    {
+        "label" : "Pás"
+    },
+    "actionSelect" : 
+    {
+        "label" : "Akcia",
+        "options" : 
+        {
+            "turnOn" : "Zapnúť",
+            "turnOff" : "Vypnúť",
+            "setRGB" : "Nastavit RGB farbu"
+        }
+    },
+    "buttons" : 
+    {
+        "back" : "Späť",
+        "write" : "Zapísať"
+    }
+}

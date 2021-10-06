@@ -1,0 +1,234 @@
+@import "./components/button.css";
+@import "./components/color-picker.css";
+@import "./components/loading-screen.css";
+@import "./components/menu.css";
+@import "./components/notification.css";
+@import "./components/popup.css";
+
+/* VARIABLES */
+:root
+{
+    --color-primary-white: #ffffff;
+    --color-primary-teal: #005a53;
+    --color-primary-black: #202020;
+    --color-primary-grey: #333333;
+    
+    --color-secondary-darkteal: #00443e;
+    --color-secondary-darkblack: #181818;
+    --color-secondary-darkgrey: #2b2b2b;
+    
+    --header-main-background-color: var(--color-primary-teal);
+    --main-background-color: var(--color-primary-black);
+    
+    --text-size: 5vmin;
+    --text-color: var(--color-primary-white);
+    --text-font: 'FuturaNo2D';
+    --header-font: 'Big Noodle Oblique';
+
+    --site-header-height: 8vh;
+    
+    --main-height: calc(100vh - var(--site-header-height));
+    --main-header-height: 15vmin;
+    --main-footer-height: 18vmin;
+}
+
+
+
+/* SECTIONS */
+
+body
+{
+    display: grid;
+    grid-template-rows: var(--site-header-height) var(--main-height);
+    grid-template-columns: auto;
+    
+    user-select: none;
+    overflow: hidden;
+    white-space: nowrap; 
+    
+    padding: 0px;
+    margin: 0px;
+    
+    font-family: var(--text-font);
+    font-size: var(--text-size);
+    color: var(--text-color);
+    
+    background-color: var(--main-background-color);
+}
+
+main
+{
+    display: grid;
+    /* grid-auto-rows: auto; */
+    grid-template-rows: var(--main-header-height) auto var(--main-footer-height);
+    grid-template-columns: auto;
+}
+
+#contentContainer
+{
+    align-self: stretch;
+}
+
+footer
+{
+    align-self: end;
+}
+
+
+
+/* HEADERS */
+
+h1
+{
+    margin: unset;
+    font-size: 7vmin;
+}
+
+h2
+{
+    margin: unset;
+    font-size: 6vmin;
+}
+
+h3
+{
+    margin: unset;
+    font-size: 5vmin;
+}
+
+.headerContainer
+{
+    display: grid;
+    place-items: center;
+}
+
+.headerText
+{
+    font-family: var(--header-font);
+    font-weight: normal;
+}
+
+#mainHeaderContainer
+{
+    background-color: var(--header-main-background-color);
+}
+
+#secondaryHeaderContainer
+{
+    height: var(--main-header-height);
+}
+
+
+
+/* INPUT */
+
+input[type=range]
+{
+    -webkit-appearance: none;
+    appearance: none;
+    
+    width: 90%;
+    height: 1.5vh;
+    
+    border-radius: 20px;
+}
+
+input[type=range]::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    appearance: none;
+    
+    width: 5vmin;
+    height: 5vmin;
+    
+    border-radius: 50%; 
+    cursor: pointer;
+}
+  
+input[type=range]::-moz-range-thumb
+{
+    width: 5vmin;
+    height: 5vmin;
+
+    cursor: pointer;
+}
+
+input[type=number]
+{
+    width: 10vw;
+    height: 3vh;
+    
+    border-radius: 10px; 
+    
+    font-size: 4vmin;
+    text-align: center;
+}
+
+input[type=text]
+{
+    width: 60vw;
+    height: 5vh;
+    
+    border-radius: 10px; 
+    
+    font-size: 4vmin;
+    text-align: center;
+}
+
+label
+{
+    font-size: 3.5vmin;
+}
+
+.hidden:not(.notificationContainer )
+{
+    display: none;
+}
+
+.visible:not(.notificationContainer )
+{
+    display: grid;
+}
+
+/* ANIMATIONS */
+@keyframes rotate 
+{
+    from 
+    {
+      transform: rotate(0deg);
+    }
+    to 
+    { 
+      transform: rotate(360deg);
+    }
+}
+
+.rotate
+{
+    animation: rotate 1.5s infinite ease;
+}
+
+/* FONTS */
+
+@font-face
+{
+    font-family: 'FuturaNo2D';
+    src: url("fonts/FuturaNo2D-DemiBold-8635bfcad5.woff");
+}
+
+@font-face
+{
+    font-family: 'Big Noodle Oblique';
+    src: url("fonts/big-noodle-too-oblique-1eed6dbdd0.woff");
+}
+
+@font-face
+{
+    font-family: 'Big Noodle Regular';
+    src: url("fonts/blizzard-6374a0ee30.regular.woff");
+}
+
+::-webkit-scrollbar
+{
+    width: 0px;  /* Remove scrollbar space */
+}

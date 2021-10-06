@@ -1,0 +1,25 @@
+{
+    "menu" : 
+    [
+        {
+            "id" : "home",
+            "label" : "Home"
+        },
+        {
+            "id" : "settings",
+            "label" : "Settings"
+        },
+        {
+            "id" : "nfc",
+            "label" : "NFC"
+        },
+        {
+            "id" : "automation",
+            "label" : "Automation"
+        },
+        {
+            "id" : "test",
+            "label" : "Test"
+        }
+    ]  
+}

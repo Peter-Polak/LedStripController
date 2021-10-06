@@ -1,0 +1,72 @@
+.button
+{
+    display: grid;
+    place-items: center;
+    
+    /* padding: 1.5vh 9vw; */
+    height: 10vmin;
+    width: 28vmin;
+    
+    font-family: var(--text-font);
+    font-size: 4vmin;
+    color: var(--text-color);
+        
+    border: 2px solid white;
+    background-color: #2b2b2b;
+    
+    transition: transform 0.5s;
+}
+
+.button:active, .button:hover
+{
+    transform: scale(1.2);
+}
+
+.button:active:hover
+{
+    transform: scale(0.8);
+}
+
+.button.primary
+{
+    background-color: var(--color-primary-teal);
+}
+
+.button.secondary
+{
+    
+    background-color: var(--color-primary-grey);
+}
+
+.button.delete
+{
+    background-color: red;
+}
+
+.button.write
+{
+    background-color: green;
+}
+
+.button.disabled
+{
+    background-color: transparent;
+    color: #ffffff52;
+    border-color: #ffffff52;
+}
+
+.footerButtons
+{
+    /* place-self: stretch; */
+    
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+    
+    align-self: end;
+    
+    background-color: var(--color-secondary-darkblack);
+    height: var(--main-footer-height);
+    width: 100vw;
+}

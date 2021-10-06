@@ -1,0 +1,15 @@
+{
+    "header" : "Colour",
+    "red" :
+    {
+        "label" : "Red"
+    },
+    "green" :
+    {
+        "label" : "Green"
+    },
+    "blue" :
+    {
+        "label" : "Blue"
+    }
+}

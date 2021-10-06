@@ -1,0 +1,17 @@
+span
+{
+    display: grid;
+    grid-template-rows: var(--content-height);
+    grid-template-columns: 25% 75%;
+    
+    place-items: center;
+}
+
+#ledsContainer
+{
+    display: grid;
+    grid-template-columns: repeat(5, 10%);
+    grid-auto-rows: 5vh;
+    
+    place-items: center;
+}
